@@ -1,0 +1,26 @@
+.section-3{
+    max-width: 1440px;
+    padding: 31px 60px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: baseline;
+    gap: 60px;
+}
+
+@media screen and (max-width: 767px){
+    .section-3{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 31px 24px 60px;
+    }
+
+    .section-3 img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1028px){
+
+    .section-3 img{
+        width: 100%;
+    }
+}
